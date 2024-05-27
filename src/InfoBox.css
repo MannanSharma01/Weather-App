@@ -1,0 +1,31 @@
+.InfoBox {
+  margin:0 auto;
+  margin-top: 50px;
+}
+
+.InfoBox  .weather-details {
+  font-size: 0.9rem;
+}
+
+.InfoBox .heading {
+  display:flex;
+  justify-content: space-between;
+}
+
+.InfoBox .icon {
+  font-size: 1.75rem;
+  animation: rotate 5s linear infinite normal;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg) ;
+    } to {
+      transform: rotate(360deg);
+  }
+}
+
+.error {
+  text-align: center;
+  margin-top: 45px;
+}
