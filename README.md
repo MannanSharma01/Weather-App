@@ -13,4 +13,17 @@ A simple weather application built using React and Material-UI that allows users
 ## 🧑‍💻 Installation
 
 1. Clone the Repository in your local machine.  
-git clone https://github.com/your-username/weather-app.git
+`git clone https://github.com/MannanSharma01/Weather-App.git`  
+2. Navigate to the project directory.
+3. Install dependencies  
+   `npm install` or `yarn install`
+4. Create '.env' file
+   In the root of your project, create a .env file and add your OpenWeatherMap API key:
+   `VITE_APP_WEATHER_API_KEY=your_openweathermap_api_key`
+   
+   *(Sign up on https://openweathermap.org/ to get a free API key.)*
+5. Run the app locally with this command
+   `npm run dev`
+   
+### 🎉🎉🎉 Congratulations. The app will be available on  http://localhost:5173
+
